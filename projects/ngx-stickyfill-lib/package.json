@@ -1,6 +1,6 @@
 {
   "name": "ngx-stickyfill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "peerDependencies": {
     "@angular/common": "^7.2.0",
     "@angular/core": "^7.2.0",
@@ -8,7 +8,7 @@
   },
   "description": "An Angular 2+ (tested in Angular 7) directive for easily using stickyfilljs, a polyfill allowing one to use position:sticky in browsers that don't yet have sticky support.",
   "keywords" :["angular","angular2","stickyfill","stickyfilljs","sticky","polyfill"],
-  "license" : "SEE LICENSE IN LICENSE",
+  "license" : "MIT",
   "repository": {
     "type" : "git",
     "url" : "https://github.com/chriszrc/ngx-stickyfill/tree/master/projects/ngx-stickyfill-lib"
