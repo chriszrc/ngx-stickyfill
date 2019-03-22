@@ -13,4 +13,5 @@
     "type" : "git",
     "url" : "https://github.com/chriszrc/ngx-stickyfill/tree/master/projects/ngx-stickyfill-lib"
   },
+  "homepage" :"https://github.com/chriszrc/ngx-stickyfill/tree/master/projects/ngx-stickyfill-lib"
 }
