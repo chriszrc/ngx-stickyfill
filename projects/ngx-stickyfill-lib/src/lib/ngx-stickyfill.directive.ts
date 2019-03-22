@@ -16,7 +16,7 @@ export class NgxStickyfillDirective {
       position: -o-sticky;
       position: -ms-sticky;
       position: sticky;
-    `;
+    ` + this.elementRef.nativeElement.style.cssText;
     Stickyfill.addOne(this.elementRef.nativeElement);
   }
 }

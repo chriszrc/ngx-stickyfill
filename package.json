@@ -11,7 +11,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "npm_pack": "cd dist/ngx-stickyfill-lib && npm pack",
-    "package": "npm run build:lib && npm run npm_pack"
+    "package": "npm run build:lib && npm run npm_pack",
+    "publish": "npm publish ./dist/ngx-stickyfill-lib/ngx-stickyfill-1.0.2.tgz"
   },
   "private": true,
   "dependencies": {

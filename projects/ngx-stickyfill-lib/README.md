@@ -38,10 +38,12 @@ export class AppModule {}
 </div>
 ```
 
-The directive only adds the position:sticky support. To adjust the top offset, set your own css rules:
+The directive only adds the position:sticky support. For the sticky effect to work, you must define an "edge", either top, right, bottom or left. To adjust the top offset, set your own css rules:
 
 ```
 .top-offset{
   top:30px;
 }
 ```
+
+See the MDN explanation for more - [https://developer.mozilla.org/en-US/docs/Web/CSS/position#Sticky_positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/position#Sticky_positioning)
