@@ -12,7 +12,7 @@ npm install stickfilljs --save
 Then you can install ngx-stickyfill:
 
 ```
-npm install ng-stickyfill --save
+npm install ngx-stickyfill --save
 ```
 
 Then add the ngxStickyfill module to your app or shared module:

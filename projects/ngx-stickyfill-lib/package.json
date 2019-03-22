@@ -11,6 +11,6 @@
   "license" : "SEE LICENSE IN LICENSE",
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/chriszrc/ngx-stickyfill"
+    "url" : "https://github.com/chriszrc/ngx-stickyfill/tree/master/projects/ngx-stickyfill-lib"
   },
 }
