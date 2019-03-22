@@ -1,0 +1,22 @@
+import { Directive, ElementRef } from '@angular/core';
+
+import * as Stickyfill from 'stickyfilljs';
+
+@Directive({
+  selector: '[ngxStickyfill]'
+})
+export class NgxStickyfillDirective {
+
+  constructor(private elementRef: ElementRef){}
+
+  ngAfterViewInit() {
+    this.elementRef.nativeElement.style.cssText = `
+      position: -webkit-sticky;
+      position: -moz-sticky;
+      position: -o-sticky;
+      position: -ms-sticky;
+      position: sticky;
+    `;
+    Stickyfill.addOne(this.elementRef.nativeElement);
+  }
+}
