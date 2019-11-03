@@ -6,7 +6,7 @@ An Angular 2+ (tested in Angular 7) directive for easily using stickyfilljs, a p
 First install the necessary stickyfilljs dependency:
 
 ```
-npm install stickfilljs --save
+npm install stickyfilljs --save
 ```
 
 Then you can install ngx-stickyfill:
