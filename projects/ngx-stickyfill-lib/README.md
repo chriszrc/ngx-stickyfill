@@ -18,6 +18,9 @@ npm install ngx-stickyfill --save
 Then add the ngxStickyfill module to your app or shared module:
 
 ```
+//...
+import { NgxStickyfillModule } from 'ngx-stickyfill';
+
 @NgModule({
   declarations: [
     AppComponent
