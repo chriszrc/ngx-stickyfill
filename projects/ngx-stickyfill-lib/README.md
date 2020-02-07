@@ -1,6 +1,6 @@
 # ngx-stickyfill
 
-An Angular 2+ (tested in Angular 7) directive for easily using stickyfilljs, a polyfill allowing one to use position:sticky in browsers that don't yet have sticky support.
+An Angular 2+ (tested in Angular 7&8) directive for easily using stickyfilljs, a polyfill allowing one to use position:sticky in browsers that don't yet have sticky support.
 
 # Installation
 First install the necessary stickyfilljs dependency:
